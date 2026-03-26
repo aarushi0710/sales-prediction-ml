@@ -52,8 +52,7 @@ python main.py
 
 ---
 
-## **Step 4: Write the Project Report**
-Since this is for a college submission, keep the language clear and focused on your decisions.
+
 
 ### **Project Report: Sales Prediction using Linear Regression**
 
