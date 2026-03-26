@@ -1,20 +1,20 @@
-**#  Sales Impact Predictor (ML)**
+#  Sales Impact Predictor (ML)
 
-**A Python-based machine learning tool that uses \*\*Multiple Linear Regression\*\* to analyze how discounts and advertising spend affect historical sales.**
+A Python-based machine learning tool that uses \*\*Multiple Linear Regression\*\* to analyze how discounts and advertising spend affect historical sales.**
 
 
 
-**##  Project Overview**
+#  Project Overview
 
-**This project avoids high-level ML libraries like Scikit-Learn to demonstrate the underlying \*\*Linear Algebra\*\* of regression. It solves for "Weights" using the Least Squares method:**
+This project avoids high-level ML libraries like Scikit-Learn to demonstrate the underlying \*\*Linear Algebra\*\* of regression. It solves for "Weights" using the Least Squares method:**
 
 **$$X^T Xw = X^T y$$**
 
 
 
-**##  Tech Stack**
+#  Tech Stack
 
-**\* \*\*Language:\*\* Python 3.x**
+Language:Python 3.x
 
 **\* \*\*Data Management:\*\* Pandas, NumPy**
 
@@ -74,7 +74,3 @@ git push origin main
 ---
 
 
-## **Final Submission Check**
-* **GitHub Link:** Copy your repo URL (e.g., `https://github.com/aarushi0710/sales-prediction-ml`).
-* **Commits:** Click "Commits" on GitHub. It should show 3 separate updates (Code -> README -> Report).
-* **README:** Make sure the "How to Run" section is clear.
