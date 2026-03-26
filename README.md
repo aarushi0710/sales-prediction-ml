@@ -40,7 +40,7 @@ Visual Insights: Generates plots for Model Accuracy and Feature Importance.**
 
 &#x20;  
 
-&#x20;  git clone \[https://github.com/aarushi0710/sales-prediction-ml.git](https://github.com/aarushi0710/sales-prediction-ml.git)**
+&#x20;  git clone \[https://github.com/aarushi0710/sales-prediction-ml.git](https://github.com/aarushi0710/sales-prediction-ml.git)
 
 Install dependencies:
 Make sure you have Python installed, then run:
