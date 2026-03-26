@@ -29,7 +29,7 @@ def predict_sales(season, discount, ads):
 # Future Scenario: Upcoming Weekend Sale
 future_weekend_sale = predict_sales(1.5, 0.3, 300)
 
-# 4. VISUALIZATION to see it in a graphical form
+#  VISUALIZATION to see it in a graphical form
 plt.figure(figsize=(12, 5))
 
 # Subplot to see Actual vs Predicted
