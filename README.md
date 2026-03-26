@@ -1,12 +1,12 @@
 #  Sales Impact Predictor (ML)
 
-A Python-based machine learning tool that uses \*\*Multiple Linear Regression\*\* to analyze how discounts and advertising spend affect historical sales.**
+A Python-based machine learning tool that uses "Multiple Linear Regression" to analyze how discounts and advertising spend affect historical sales.
 
 
 
 #  Project Overview
 
-This project avoids high-level ML libraries like Scikit-Learn to demonstrate the underlying \*\*Linear Algebra\*\* of regression. It solves for "Weights" using the Least Squares method:**
+This project avoids high-level ML libraries like Scikit-Learn to demonstrate the underlying "Linear Algebra" of regression. It solves for "Weights" using the Least Squares method:
 
 **$$X^T Xw = X^T y$$**
 
@@ -30,7 +30,7 @@ Bias Integration: Automatically adds a bias (intercept) column to the feature ma
 
 Predictive Analysis: Includes a function to forecast sales for future marketing scenarios.
 
-Visual Insights: Generates plots for Model Accuracy and Feature Importance.**
+Visual Insights: Generates plots for Model Accuracy and Feature Importance.
 
 
 
