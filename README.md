@@ -38,7 +38,7 @@ Visual Insights: Generates plots for Model Accuracy and Feature Importance.**
 
 1.Clone the repository:
 
-&#x20;  ```bash
+&#x20;  
 
 &#x20;  git clone \[https://github.com/aarushi0710/sales-prediction-ml.git](https://github.com/aarushi0710/sales-prediction-ml.git)**
 
