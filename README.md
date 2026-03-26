@@ -14,33 +14,33 @@ This project avoids high-level ML libraries like Scikit-Learn to demonstrate the
 
 #  Tech Stack
 
-Language:Python 3.x
+Language : Python 3.x
 
-**\* \*\*Data Management:\*\* Pandas, NumPy**
+Data Management: Pandas, NumPy
 
-**\* \*\*Visualization:\*\* Matplotlib**
-
-
-
-**##  Features**
-
-**\* \*\*Matrix Operations:\*\* Uses NumPy's `linalg.lstsq` for solving weights.**
-
-**\* \*\*Bias Integration:\*\* Automatically adds a bias (intercept) column to the feature matrix.**
-
-**\* \*\*Predictive Analysis:\*\* Includes a function to forecast sales for future marketing scenarios.**
-
-**\* \*\*Visual Insights:\*\* Generates plots for Model Accuracy and Feature Importance.**
+Visualization: Matplotlib
 
 
 
-**##  How to Run**
+# Features
 
-**1. \*\*Clone the repository:\*\***
+Matrix Operations: Uses NumPy's `linalg.lstsq` for solving weights.
 
-&#x20;  **```bash**
+Bias Integration: Automatically adds a bias (intercept) column to the feature matrix.
 
-&#x20;  **git clone \[https://github.com/aarushi0710/sales-prediction-ml.git](https://github.com/aarushi0710/sales-prediction-ml.git)**
+Predictive Analysis: Includes a function to forecast sales for future marketing scenarios.
+
+Visual Insights: Generates plots for Model Accuracy and Feature Importance.**
+
+
+
+#  How to Run
+
+1.Clone the repository:
+
+&#x20;  ```bash
+
+&#x20;  git clone \[https://github.com/aarushi0710/sales-prediction-ml.git](https://github.com/aarushi0710/sales-prediction-ml.git)**
 
 Install dependencies:
 Make sure you have Python installed, then run:
@@ -52,16 +52,16 @@ python main.py
 
 ---
 
-# 1. Pull the changes from GitHub to sync up
+ 1. Pull the changes from GitHub to sync up
 git pull origin main --rebase
 
-# 2. Now try pushing again
+ 2. Now try pushing again
 git push origin main
 
 
 ---
 
-## **Step 5: Connect to GitHub**
+#Step 5: Connect to GitHub
 1.  Go to GitHub and create a new public repository named `sales-prediction-ml`.
 2.  Copy the URL.
 3.  Run these in your terminal:
