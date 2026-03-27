@@ -1,5 +1,5 @@
                                              
-Project Overview
+Project Overview:
 This project predicts future sales using Machine Learning based on factors like advertising spend and discounts. It helps businesses make better decisions about inventory, marketing, and planning.
 
 Features
