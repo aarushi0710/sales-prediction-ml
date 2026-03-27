@@ -1,62 +1,55 @@
-                      Project Report
+                                             
+Project Overview
+This project predicts future sales using Machine Learning based on factors like advertising spend and discounts. It helps businesses make better decisions about inventory, marketing, and planning.
 
-Project Title- Sales Prediction using Machine Learning
-Student Name- Aarushi Srivastava
-Course             - B-Tech (AIML)
-
- Introduction-Sales prediction is the process of estimating future sales using past data. It helps businesses in planning stock, marketing, and improving profit.
-
-Objective of the Project- 
+Features
 •	To predict future sales using past data 
-•	To understand machine learning concepts 
-•	To analyse business trends 
+•	Uses Linear Regression 
+•	Analyse business trends of real world 
+•	Understand machine learning Concepts
 
-Problem Statement-Businesses often face difficulty in deciding how much stock to keep. This project aims to predict future sales based on factors like advertising and discounts.
-
-
-Technologies Used
-•	Python 
-•	Pandas 
+ Technologies Use
+•	Python
+•	Pandas
 •	NumPy 
 •	Matplotlib
-•	VS Code- Framework/IDLE
+•	VS Code- Framework/Python IDLE
 
-Methodology Of Project-
-
-Data Collection
-•	Dataset from  / sample data 
- Data Preprocessing
-•	Cleaning data 
-•	Removing null values 
- Model Used
-•	Linear Regression
-
-      y=mx+b    
-             m=1.0 ,b=0.5
-       y = Sales 
-      x = input features
-
+ Installation & Setup
+Clone the Repository
+git clone https://github.com/your-username/sales-prediction-ml.git
+cd sales-prediction-ml
+You can use VS Code (free, powerful, cross-platform code editor developed by Microsoft)/Python IDLE as environment setup
  
+ Install Required Libraries
+Make sure Python is installed, then run:
 
-
-Results & Output-The model successfully predicted sales based on advertising and discount data. As shown by below Images
+python -m pip install numpy
+python -m pip install pandas
+ python -m pip install matplotlib
+or in one go
+python -m pip install numpy pandas matplotlib
  
+How to Run the Project
+Run the main Python file:
+python Main.py
 
- 
 
-Advantages
-•	Helps in business decision making 
-•	Reduces loss 
-•	Improves planning
+Your sales data  should  be  like 
+Season, Discount ,Advertising ,Sales
+ Season-   [1, 1, 1.5] 
+ Discount-  [0, 0.1,0.2]
+ Ad_Spend- [50, 50, 100]
+  Actual_Sales-[100, 105,30]
 
-Limitations
-•	Depends on data quality 
-•	 Accuracy needs to be checked 
 
-Future Scope
+ How It Works
+1.	Load dataset using Pandas
+2.	Split data into training and testing sets
+3.	Train model using Linear Regression
+4.	Predict sales based on input features
 
-•	We can  Add more features (festival, weather, Situation like War) 
-•	We can Use advanced models 
-•	We can Integrate with web app or mobile app and can be made more responsive 
+Example Output
+Predicted Sales: [250.5, 310.2, 420.7]
 
 
