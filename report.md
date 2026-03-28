@@ -57,11 +57,11 @@ Feature Impact Chart: A bar graph visualizes the weights ($w_n$) calculated by N
 
 •	Advantages
 
--Helps in business decision making 
+  -Helps in business decision making 
 
--Reduces loss 
+  -Reduces loss 
 
--Improves planning
+  -Improves planning
 
 
 
