@@ -1,8 +1,8 @@
                       Project Report
 
 Project Title- Sales Prediction using Machine Learning
-Student Name- Aarushi Srivastava
-Course - B-Tech (AIML)
+   Student Name- Aarushi Srivastava
+   Course - B-Tech (AIML)
 
  Introduction-Sales prediction is the process of estimating future sales using past data. It helps businesses in planning stock, marketing, and improving profit.
 
