@@ -1,7 +1,9 @@
                       Project Report
 
 Project Title- Sales Prediction using Machine Learning
+
    Student Name- Aarushi Srivastava
+   
    Course - B-Tech (AIML)
 
  Introduction-Sales prediction is the process of estimating future sales using past data. It helps businesses in planning stock, marketing, and improving profit.
@@ -54,8 +56,11 @@ Feature Impact Chart: A bar graph visualizes the weights ($w_n$) calculated by N
  
 
 •	Advantages
+
 -Helps in business decision making 
+
 -Reduces loss 
+
 -Improves planning
 
 
