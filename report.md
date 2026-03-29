@@ -73,7 +73,9 @@ has the highest correlation with sales growth.
 •	Advantages
 
   -Helps in business decision making 
+  
   -Reduces loss 
+  
   -Improves planning
 
 
