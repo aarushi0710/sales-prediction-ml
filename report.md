@@ -72,11 +72,11 @@ has the highest correlation with sales growth.
 
 •	Advantages
 
-  -Helps in business decision making 
+   -Helps in business decision making 
   
-  -Reduces loss 
+   -Reduces loss 
   
-  -Improves planning
+   -Improves planning
 
 
 
@@ -84,9 +84,9 @@ has the highest correlation with sales growth.
 
 •	Limitations
 
--Depends on data quality 
+   -Depends on data quality 
 
--Accuracy needs to be checked 
+   -Accuracy needs to be checked 
 
 
 
@@ -94,34 +94,34 @@ has the highest correlation with sales growth.
 
 •	Future Scope
 
--We can  Add more features (festival, weather, Situation like War) 
+  -We can  Add more features (festival, weather, Situation like War) 
 
--We can Use advanced models 
+  -We can Use advanced models 
 
--We can Integrate with web app or mobile app and can be made
- more responsive.               
+  -We can Integrate with web app or mobile app and can be made
+   more responsive.               
 
 
 
 
  • Challenges Faced
 
- -It was difficult to create the critical threshold part which calculates and
- reminds the developer of the finishing stock in advance.
+  -It was difficult to create the critical threshold part which calculates and
+   reminds the developer of the finishing stock in advance.
 
- -Instead of using high level libraries I tried to work it out with normal usable
- libraries like numpy to implement linear regression logic. This required a better
- understanding of the language and library.
+  -Instead of using high level libraries I tried to work it out with normal usable
+   libraries like numpy to implement linear regression logic. This required a better
+   understanding of the language and library.
 
 
  • What I learned
  
   -I learnt to actually implement the libraries and language properly for creating
- the project.
+   the project.
  
   -Actually understood how to use the libraries for their purpose and had a deeper
- understanding of the language and library now that I used them a lot I will
- remember what commands are used for what purpose.
+   understanding of the language and library now that I used them a lot I will
+   remember what commands are used for what purpose.
 
 
 
