@@ -2,6 +2,20 @@
 Project Overview:
 This project predicts future sales using Machine Learning based on factors like advertising spend and discounts. It helps businesses make better decisions about inventory, marketing, and planning.
 
+
+-How to Run the Project
+
+1. Prerequisites
+Ensure you have Python installed. You will also need the following libraries:
+* Pandas: For data manipulation.
+* NumPy: For numerical calculations.
+* Matplotlib: For data visualization.
+
+Install them all at once using:
+```bash
+pip install pandas numpy scikit-learn matplotlib
+```
+
 Features
 •	To predict future sales using past data 
 •	Uses Linear Regression 
