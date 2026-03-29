@@ -13,7 +13,7 @@ Ensure you have Python installed. You will also need the following libraries:
 
 Install them all at once using:
 ```bash
-pip install pandas numpy scikit-learn matplotlib
+pip install pandas numpy matplotlib
 ```
 
 Features
