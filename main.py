@@ -15,7 +15,7 @@ df = pd.DataFrame(data)
 
 # Using NumPy's Least Squares to find the 'Weights' of each
 X = df[['Season', 'Discount', 'Ad_Spend']].values
-X = np.hstack([np.ones((X.shape[0], 1)), X]) # Add Bias Column
+X = np.hstack([np.ones((X.shape[0], 1)), X]) 
 y = df['Actual_Sales'].values
 
 # Calculate weights
@@ -27,7 +27,7 @@ def predict_sales(season, discount, ads):
     return np.dot(input_data, weights)
 
 # Future Scenario: Upcoming Weekend Sale
-future_weekend_sale = predict_sales(1.5, 0.3, 300)
+future_weekend_sale = predict_sales(1.5, 0.3,300)
 
 #  VISUALIZATION to see it in a graphical form
 plt.figure(figsize=(12, 5))
@@ -50,6 +50,6 @@ plt.ylabel("Impact on Sales")
 plt.tight_layout()
 plt.show()
 
-print(f"--- MODEL INSIGHTS ---")
+print(f". MODEL INSIGHTS .")
 print(f"Predicted Sales for upcoming Big Sale Day: {future_weekend_sale:.2f} units")
 print(f"Insight: A 1% increase in Discount adds approx {weights[2]/100:.2f} units to sales.")
