@@ -1,80 +1,69 @@
-**#  Sales Impact Predictor (ML)**
-
-**A Python-based machine learning tool that uses \*\*Multiple Linear Regression\*\* to analyze how discounts and advertising spend affect historical sales.**
-
-
-
-**##  Project Overview**
-
-**This project avoids high-level ML libraries like Scikit-Learn to demonstrate the underlying \*\*Linear Algebra\*\* of regression. It solves for "Weights" using the Least Squares method:**
-
-**$$X^T Xw = X^T y$$**
+                                             
+Project Overview:
+This project predicts future sales using Machine Learning based on factors like advertising spend and discounts. It helps businesses make better decisions about inventory, marketing, and planning.
 
 
+-How to Run the Project
 
-**##  Tech Stack**
+1. Prerequisites
+Ensure you have Python installed. You will also need the following libraries:
+* Pandas: For data manipulation.
+* NumPy: For numerical calculations.
+* Matplotlib: For data visualization.
 
-**\* \*\*Language:\*\* Python 3.x**
-
-**\* \*\*Data Management:\*\* Pandas, NumPy**
-
-**\* \*\*Visualization:\*\* Matplotlib**
-
-
-
-**##  Features**
-
-**\* \*\*Matrix Operations:\*\* Uses NumPy's `linalg.lstsq` for solving weights.**
-
-**\* \*\*Bias Integration:\*\* Automatically adds a bias (intercept) column to the feature matrix.**
-
-**\* \*\*Predictive Analysis:\*\* Includes a function to forecast sales for future marketing scenarios.**
-
-**\* \*\*Visual Insights:\*\* Generates plots for Model Accuracy and Feature Importance.**
-
-
-
-**##  How to Run**
-
-**1. \*\*Clone the repository:\*\***
-
-&#x20;  **```bash**
-
-&#x20;  **git clone \[https://github.com/aarushi0710/sales-prediction-ml.git](https://github.com/aarushi0710/sales-prediction-ml.git)**
-
-Install dependencies:
-Make sure you have Python installed, then run:
+Install them all at once using:
+```bash
 pip install pandas numpy matplotlib
+```
 
-Execute the script:
-python main.py
+Features
+•	To predict future sales using past data 
+•	Uses Linear Regression 
+•	Analyse business trends of real world 
+•	Understand machine learning Concepts
+
+ Technologies Use
+•	Python
+•	Pandas
+•	NumPy 
+•	Matplotlib
+•	VS Code- Framework/Python IDLE
+
+ Installation & Setup
+Clone the Repository
+git clone https://github.com/your-username/sales-prediction-ml.git
+cd sales-prediction-ml
+You can use VS Code (free, powerful, cross-platform code editor developed by Microsoft)/Python IDLE as environment setup
+ 
+ Install Required Libraries
+Make sure Python is installed, then run:
+
+python -m pip install numpy
+python -m pip install pandas
+ python -m pip install matplotlib
+or in one go
+python -m pip install numpy pandas matplotlib
+ 
+How to Run the Project
+Run the main Python file:
+python Main.py
 
 
----
-
-# 1. Pull the changes from GitHub to sync up
-git pull origin main --rebase
-
-# 2. Now try pushing again
-git push origin main
-
-
----
-
-## **Step 5: Connect to GitHub**
-1.  Go to GitHub and create a new public repository named `sales-prediction-ml`.
-2.  Copy the URL.
-3.  Run these in your terminal:
-    ```bash
-    git remote add origin YOUR_REPOSITORY_URL
-    git branch -M main
-    git push -u origin main
-    ```
-
----
+Your sales data  should  be  like 
+Season, Discount ,Advertising ,Sales
+ Season-   [1, 1, 1.5] 
+ Discount-  [0, 0.1,0.2]
+ Ad_Spend- [50, 50, 100]
+  Actual_Sales-[100, 105,30]
 
 
-## **Final Submission Check**
-* **GitHub Link:** Copy your repo URL (e.g., `https://github.com/aarushi0710/sales-prediction-ml`).
-* **Commits:** Click "Commits" on GitHub. It should show 3 separate updates (Code -> README -> Report).
-* **README:** Make sure the "How to Run" section is clear.
+ How It Works
+1.	Load dataset using Pandas
+2.	Split data into training and testing sets
+3.	Train model using Linear Regression
+4.	Predict sales based on input features
+
+Example Output
+Predicted Sales: [250.5, 310.2, 420.7]
+
+
