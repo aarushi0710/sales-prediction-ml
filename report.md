@@ -69,12 +69,11 @@ NumPy. This allows a business owner to see which factor (e.g., Ads vs. Discounts
 has the highest correlation with sales growth.
  
 
+
 •	Advantages
 
   -Helps in business decision making 
-
   -Reduces loss 
-
   -Improves planning
 
 
@@ -99,6 +98,7 @@ has the highest correlation with sales growth.
 
 -We can Integrate with web app or mobile app and can be made
  more responsive.               
+
 
 
 
