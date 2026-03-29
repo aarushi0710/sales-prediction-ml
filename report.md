@@ -116,8 +116,10 @@ has the highest correlation with sales growth.
 
 
  • What I learned
+ 
   -I learnt to actually implement the libraries and language properly for creating
  the project.
+ 
   -Actually understood how to use the libraries for their purpose and had a deeper
  understanding of the language and library now that I used them a lot I will
  remember what commands are used for what purpose.
